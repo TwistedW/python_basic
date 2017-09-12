@@ -1,6 +1,6 @@
 import cv2
 def image_shape():
-    img1 = cv2.imread("image1.jpg")
+    img1 = cv2.imread("image.jpg")
     watermark_add1 = "created by wuguang"
     w1 = img1.shape[1]
     h1 = img1.shape[0]
